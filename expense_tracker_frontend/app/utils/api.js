@@ -11,7 +11,7 @@ export const FetchData = async () => {
   }
 };
 
-// Function to fetch data from the server
+// Function to delete data from the server
 export const DeleteData = async (id) => {
   try {
      await axios.delete(
